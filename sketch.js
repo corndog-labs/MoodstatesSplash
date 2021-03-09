@@ -132,13 +132,13 @@ drawFive = function() {
 }
 
 //-- drawSplash() will draw the image at index 4 from the array
-drawSplash = function() {
-  
+drawSplash = function() {  
+   image(images[5],width/2, height/2);
+
    fill(255, 255, 255);
    textSize(30);
    text("Which mood are you today", width/2, height/8);
 
-   image(images[5],width/2, height/2);
 
    fill(255, 255, 255);
    text("Press i for instructions page", width/2, height/1.1);
